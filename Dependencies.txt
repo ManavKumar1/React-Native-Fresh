@@ -14,3 +14,20 @@ android > local.properties{
 
     ## USERNAME == your device name
 }
+
+# Git Commands :
+
+git init
+git add .
+git commit -m "First Commit"
+git add remote origin (url of repo)
+git push -u origin main
+
+# For changing git origin
+
+git remote -v  // for list of origin
+
+git remote set-url origin (new_remote_url)
+
+# For Force Force
+git push --force origin main
