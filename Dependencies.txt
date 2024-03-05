@@ -1,0 +1,16 @@
+npm install @react-navigation/native
+
+npm install react-native-screens react-native-safe-area-context
+
+npx pod-install ios
+
+npm install @react-navigation/native-stack
+
+
+
+android > local.properties{
+    
+    sdk.dir= /Users/USERNAME/Library/Android/sdk
+
+    ## USERNAME == your device name
+}
